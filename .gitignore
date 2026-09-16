@@ -1,0 +1,24 @@
+# === Rendered / heavy video output ===
+renders/
+
+# === Simulation output (regenerable, can be large) ===
+data/*
+!data/bg1_raw_table.txt
+
+# === MATLAB-specific junk ===
+*.asv
+*.autosave
+*.fig
+slprj/
+codegen/
+*.mex*
+*.slxc
+*.mlappinstall
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Editor / misc ===
+*.swp
+.vscode/
